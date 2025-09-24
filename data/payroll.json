@@ -1,0 +1,18 @@
+{
+  "payroll_run_202509": {
+    "payroll_run_id": "payroll_run_202509",
+    "payroll_period_start": "2025-09-01",
+    "payroll_period_end": "2025-09-15",
+    "employee_pays": [
+      {
+        "employee_id": "employee_12345",
+        "gross_pay": 3541.67,
+        "deductions": 750.00,
+        "net_pay": 2791.67
+      }
+    ],
+    "status": "pending_approval",
+    "created_at": "2025-09-16T10:00:00Z",
+    "updated_at": "2025-09-16T10:00:00Z"
+  }
+}

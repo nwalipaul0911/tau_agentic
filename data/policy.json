@@ -1,0 +1,9 @@
+{
+  "policy_expense": {
+    "policy_id": "policy_expense",
+    "policy_name": "Expense Reimbursement Policy",
+    "content": "This policy outlines the guidelines for submitting and approving expense reports...",
+    "created_at": "2025-01-10T09:00:00Z",
+    "updated_at": "2025-05-15T11:00:00Z"
+  }
+}

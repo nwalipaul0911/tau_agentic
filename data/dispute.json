@@ -1,0 +1,11 @@
+{
+  "dispute_001": {
+    "dispute_id": "dispute_001",
+    "dispute_type": "payroll",
+    "entity_id": "payroll_run_202509",
+    "description": "Incorrect overtime calculation for employee_12345.",
+    "status": "open",
+    "created_at": "2025-09-18T09:00:00Z",
+    "updated_at": "2025-09-18T09:00:00Z"
+  }
+}

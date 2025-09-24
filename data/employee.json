@@ -1,0 +1,14 @@
+{
+  "employee_12345": {
+    "employee_id": "employee_12345",
+    "name": "Jane Doe",
+    "role": "Software Engineer",
+    "salary": 85000,
+    "tax_id": "987-65-4321",
+    "bank_account_number": "1234567890",
+    "bank_routing_number": "098765432",
+    "department_id": "dpt_eng_001",
+    "created_at": "2025-08-01T08:00:00Z",
+    "updated_at": "2025-09-23T12:00:00Z"
+  }
+}
