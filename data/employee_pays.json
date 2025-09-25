@@ -1,0 +1,10 @@
+[
+  {
+    "id": "ep_001",
+    "employee_id": "emp_001",
+    "payroll_run_id": "pr_001",
+    "gross_pay": 85000.00,
+    "deductions": 12000.00,
+    "net_pay": 73000.00
+  }
+]

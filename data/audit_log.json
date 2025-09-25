@@ -1,0 +1,10 @@
+[
+  {
+    "audit_id": "audit_001",
+    "entity_type": "invoice",
+    "entity_id": "inv_001",
+    "action_performed": "Invoice created and submitted for approval",
+    "timestamp": "2025-09-23T12:00:00Z",
+    "user_role": "Finance"
+  }
+]

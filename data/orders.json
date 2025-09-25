@@ -1,0 +1,12 @@
+[
+  {
+    "order_id": "ord_001",
+    "vendor_id": "ven_001",
+    "order_type": "purchase",
+    "description": "Laptop procurement for engineering team",
+    "amount": 5000.00,
+    "status": "approved",
+    "created_at": "2025-09-23T12:00:00Z",
+    "updated_at": "2025-09-23T12:00:00Z"
+  }
+]

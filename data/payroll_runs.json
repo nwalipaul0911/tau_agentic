@@ -1,0 +1,10 @@
+[
+  {
+    "payroll_run_id": "pr_001",
+    "payroll_period_start": "2025-09-01",
+    "payroll_period_end": "2025-09-15",
+    "status": "pending_approval",
+    "created_at": "2025-09-23T12:00:00Z",
+    "updated_at": "2025-09-23T12:00:00Z"
+  }
+]
