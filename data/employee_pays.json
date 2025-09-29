@@ -1,10 +1,162 @@
-[
-  {
-    "id": "ep_001",
+{
+  "epay_001": {
+    "pay_id": "epay_001",
     "employee_id": "emp_001",
-    "payroll_run_id": "pr_001",
-    "gross_pay": 85000.00,
-    "deductions": 12000.00,
-    "net_pay": 73000.00
+    "payroll_run_id": "prun_005",
+    "gross_pay": 5833.33,
+    "deductions": 1166.67,
+    "net_pay": 4666.66,
+    "status": "paid",
+    "paid_at": "2023-01-01T12:00:00+00:00"
+  },
+  "epay_002": {
+    "pay_id": "epay_002",
+    "employee_id": "emp_001",
+    "payroll_run_id": "prun_006",
+    "gross_pay": 5833.33,
+    "deductions": 1166.67,
+    "net_pay": 4666.66,
+    "status": "failed",
+    "paid_at": "2023-01-23T12:00:00+00:00"
+  },
+  "epay_003": {
+    "pay_id": "epay_003",
+    "employee_id": "emp_001",
+    "payroll_run_id": "prun_007",
+    "gross_pay": 5833.33,
+    "deductions": 1166.67,
+    "net_pay": 4666.66,
+    "status": "disputed",
+    "paid_at": "2023-02-14T12:00:00+00:00"
+  },
+  "epay_004": {
+    "pay_id": "epay_004",
+    "employee_id": "emp_001",
+    "payroll_run_id": "prun_008",
+    "gross_pay": 5833.33,
+    "deductions": 1166.67,
+    "net_pay": 4666.66,
+    "status": "pending",
+    "paid_at": "2023-03-08T12:00:00+00:00"
+  },
+  "epay_005": {
+    "pay_id": "epay_005",
+    "employee_id": "emp_001",
+    "payroll_run_id": "prun_009",
+    "gross_pay": 5833.33,
+    "deductions": 1166.67,
+    "net_pay": 4666.66,
+    "status": "paid",
+    "paid_at": "2023-03-25T12:00:00+00:00"
+  },
+  "epay_006": {
+    "pay_id": "epay_006",
+    "employee_id": "emp_001",
+    "payroll_run_id": "prun_010",
+    "gross_pay": 5833.33,
+    "deductions": 1166.67,
+    "net_pay": 4666.66,
+    "status": "failed",
+    "paid_at": "2023-04-16T12:00:00+00:00"
+  },
+  "epay_007": {
+    "pay_id": "epay_007",
+    "employee_id": "emp_001",
+    "payroll_run_id": "prun_011",
+    "gross_pay": 5833.33,
+    "deductions": 1166.67,
+    "net_pay": 4666.66,
+    "status": "disputed",
+    "paid_at": "2023-05-08T12:00:00+00:00"
+  },
+  "epay_008": {
+    "pay_id": "epay_008",
+    "employee_id": "emp_001",
+    "payroll_run_id": "prun_012",
+    "gross_pay": 5833.33,
+    "deductions": 1166.67,
+    "net_pay": 4666.66,
+    "status": "pending",
+    "paid_at": "2023-05-30T12:00:00+00:00"
+  },
+  "epay_009": {
+    "pay_id": "epay_009",
+    "employee_id": "emp_002",
+    "payroll_run_id": "prun_013",
+    "gross_pay": 3333.33,
+    "deductions": 666.67,
+    "net_pay": 2666.66,
+    "status": "paid",
+    "paid_at": "2023-06-21T12:00:00+00:00"
+  },
+  "epay_010": {
+    "pay_id": "epay_010",
+    "employee_id": "emp_001",
+    "payroll_run_id": "prun_014",
+    "gross_pay": 5833.33,
+    "deductions": 1166.67,
+    "net_pay": 4666.66,
+    "status": "failed",
+    "paid_at": "2023-07-08T12:00:00+00:00"
+  },
+  "epay_011": {
+    "pay_id": "epay_011",
+    "employee_id": "emp_002",
+    "payroll_run_id": "prun_015",
+    "gross_pay": 3333.33,
+    "deductions": 666.67,
+    "net_pay": 2666.66,
+    "status": "disputed",
+    "paid_at": "2023-07-30T12:00:00+00:00"
+  },
+  "epay_012": {
+    "pay_id": "epay_012",
+    "employee_id": "emp_001",
+    "payroll_run_id": "prun_016",
+    "gross_pay": 5833.33,
+    "deductions": 1166.67,
+    "net_pay": 4666.66,
+    "status": "pending",
+    "paid_at": "2023-08-21T12:00:00+00:00"
+  },
+  "epay_013": {
+    "pay_id": "epay_013",
+    "employee_id": "emp_002",
+    "payroll_run_id": "prun_017",
+    "gross_pay": 3333.33,
+    "deductions": 666.67,
+    "net_pay": 2666.66,
+    "status": "paid",
+    "paid_at": "2023-09-12T12:00:00+00:00"
+  },
+  "epay_014": {
+    "pay_id": "epay_014",
+    "employee_id": "emp_001",
+    "payroll_run_id": "prun_018",
+    "gross_pay": 5833.33,
+    "deductions": 1166.67,
+    "net_pay": 4666.66,
+    "status": "failed",
+    "paid_at": "2023-10-04T12:00:00+00:00"
+  },
+  "epay_015": {
+    "pay_id": "epay_015",
+    "employee_id": "emp_002",
+    "payroll_run_id": "prun_019",
+    "gross_pay": 3333.33,
+    "deductions": 666.67,
+    "net_pay": 2666.66,
+    "status": "disputed",
+    "paid_at": "2023-10-21T12:00:00+00:00"
+  },
+  "epay_016": {
+    "pay_id": "epay_016",
+    "employee_id": "emp_003",
+    "payroll_run_id": "prun_020",
+    "gross_pay": 3958.33,
+    "deductions": 791.67,
+    "net_pay": 3166.66,
+    "status": "pending",
+    "paid_at": "2023-11-12T12:00:00+00:00"
   }
-]
+}

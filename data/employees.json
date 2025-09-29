@@ -1,0 +1,93 @@
+{
+  "emp_001": {
+    "employee_id": "emp_001",
+    "name": "Andrew Stevens",
+    "role": "Company secretary",
+    "salary": 140000,
+    "tax_id": "TAX-00004",
+    "bank_account_number": "EMPL0000000004",
+    "bank_routing_number": "100000004",
+    "department_id": "dept_004",
+    "created_at": "2022-12-15T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  },
+  "emp_002": {
+    "employee_id": "emp_002",
+    "name": "David Hoffman",
+    "role": "General practice doctor",
+    "salary": 80000,
+    "tax_id": "TAX-00010",
+    "bank_account_number": "EMPL0000000010",
+    "bank_routing_number": "100000010",
+    "department_id": "dept_005",
+    "created_at": "2023-05-28T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  },
+  "emp_003": {
+    "employee_id": "emp_003",
+    "name": "Mr. Philip Cannon",
+    "role": "Conservation officer, historic buildings",
+    "salary": 95000,
+    "tax_id": "TAX-00016",
+    "bank_account_number": "EMPL0000000016",
+    "bank_routing_number": "100000016",
+    "department_id": "dept_001",
+    "created_at": "2023-11-08T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  },
+  "emp_004": {
+    "employee_id": "emp_004",
+    "name": "Danielle Lee",
+    "role": "Production assistant, radio",
+    "salary": 110000,
+    "tax_id": "TAX-00022",
+    "bank_account_number": "EMPL0000000022",
+    "bank_routing_number": "100000022",
+    "department_id": "dept_002",
+    "created_at": "2024-04-20T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  },
+  "emp_005": {
+    "employee_id": "emp_005",
+    "name": "Bradley Sandoval",
+    "role": "Systems analyst",
+    "salary": 125000,
+    "tax_id": "TAX-00028",
+    "bank_account_number": "EMPL0000000028",
+    "bank_routing_number": "100000028",
+    "department_id": "dept_003",
+    "created_at": "2024-10-02T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  },
+  "emp_006": {
+    "employee_id": "emp_006",
+    "name": "Carlos Whitney",
+    "role": "Designer, television/film set",
+    "salary": 140000,
+    "tax_id": "TAX-00034",
+    "bank_account_number": "EMPL0000000034",
+    "bank_routing_number": "100000034",
+    "department_id": "dept_004",
+    "created_at": "2025-03-15T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  },
+  "emp_007": {
+    "employee_id": "emp_007",
+    "name": "Jennifer Zavala",
+    "role": "Software engineer",
+    "salary": 80000,
+    "tax_id": "TAX-00040",
+    "bank_account_number": "EMPL0000000040",
+    "bank_routing_number": "100000040",
+    "department_id": "dept_005",
+    "created_at": "2025-08-26T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  }
+}

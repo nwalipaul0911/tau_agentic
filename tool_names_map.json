@@ -1,0 +1,254 @@
+{
+  "add_audit_logs_entry": [
+    "add_audit_logs_entry",
+    "log_audit_event",
+    "create_audit_record",
+    "write_to_audit_log",
+    "record_system_action"
+  ],
+  "create_approval_request": [
+    "create_approval_request",
+    "request_approval",
+    "submit_for_approval",
+    "initiate_approval",
+    "make_approval_request"
+  ],
+  "create_dispute": [
+    "create_dispute",
+    "raise_dispute",
+    "log_dispute",
+    "report_issue",
+    "open_new_dispute"
+  ],
+  "create_employee": [
+    "create_employee",
+    "onboard_employee",
+    "add_new_employee",
+    "register_employee",
+    "make_employee_record"
+  ],
+  "create_invoice": [
+    "create_invoice",
+    "generate_new_invoice",
+    "submit_invoice",
+    "add_invoice",
+    "record_invoice"
+  ],
+  "create_offboarding_request": [
+    "create_offboarding_request",
+    "start_offboarding",
+    "initiate_offboarding",
+    "request_offboarding_action",
+    "record_offboarding_request"
+  ],
+  "create_payment": [
+    "create_payment",
+    "generate_payment",
+    "process_payment",
+    "record_payment",
+    "initiate_disbursement"
+  ],
+  "create_payroll_run": [
+    "create_payroll_run",
+    "start_new_payroll",
+    "initiate_payroll_period",
+    "generate_payroll_draft",
+    "run_payroll"
+  ],
+  "create_vendor": [
+    "create_vendor",
+    "onboard_vendor",
+    "add_new_vendor",
+    "register_vendor",
+    "make_vendor_record"
+  ],
+  "execute_external_payment": [
+    "execute_external_payment",
+    "process_external_payment",
+    "send_funds",
+    "dispatch_payment_externally",
+    "transfer_funds_to_account"
+  ],
+  "generate_employee_pays": [
+    "generate_employee_pays",
+    "create_payroll_batch",
+    "process_employee_salaries",
+    "produce_pay_records",
+    "calculate_and_generate_pays"
+  ],
+  "get_approval_request": [
+    "get_approval_request",
+    "fetch_approval_request",
+    "find_approval_by_id",
+    "lookup_approval_request",
+    "read_approval_record"
+  ],
+  "get_audit_entries_for_entity": [
+    "get_audit_entries_for_entity",
+    "fetch_audit_logs",
+    "get_entity_audits",
+    "find_audit_entries",
+    "read_audit_trail"
+  ],
+  "get_department": [
+    "get_department",
+    "fetch_department",
+    "find_department_by_id",
+    "lookup_department",
+    "read_department_record"
+  ],
+  "get_dispute": [
+    "get_dispute",
+    "fetch_dispute",
+    "find_dispute_by_id",
+    "lookup_dispute",
+    "read_dispute_record"
+  ],
+  "get_employee": [
+    "get_employee",
+    "fetch_employee",
+    "find_employee_by_id",
+    "lookup_employee",
+    "read_employee_record"
+  ],
+  "get_employee_pay": [
+    "get_employee_pay",
+    "fetch_employee_pay",
+    "find_employee_pay_by_id",
+    "lookup_employee_pay",
+    "read_employee_pay_record"
+  ],
+  "get_invoice": [
+    "get_invoice",
+    "fetch_invoice",
+    "find_invoice_by_id",
+    "lookup_invoice",
+    "read_invoice_record"
+  ],
+  "get_offboarding_request": [
+    "get_offboarding_request",
+    "fetch_offboarding_request",
+    "find_offboarding_by_id",
+    "lookup_offboarding",
+    "read_offboarding_record"
+  ],
+  "get_onboarding_request": [
+    "get_onboarding_request",
+    "fetch_onboarding_request",
+    "find_onboarding_by_id",
+    "lookup_onboarding",
+    "read_onboarding_record"
+  ],
+  "get_order": [
+    "get_order",
+    "fetch_order",
+    "find_order_by_id",
+    "lookup_order",
+    "read_order_record"
+  ],
+  "get_payment": [
+    "get_payment",
+    "fetch_payment",
+    "find_payment_by_id",
+    "lookup_payment",
+    "read_payment_record"
+  ],
+  "get_payroll_run": [
+    "get_payroll_run",
+    "fetch_payroll_run",
+    "find_payroll_run_by_id",
+    "lookup_payroll_run",
+    "read_payroll_run_record"
+  ],
+  "get_pending_approvals": [
+    "get_pending_approvals",
+    "fetch_pending_approvals",
+    "list_unapproved_requests",
+    "find_pending_approvals",
+    "get_approval_queue"
+  ],
+  "get_vendor": [
+    "get_vendor",
+    "fetch_vendor",
+    "find_vendor_by_id",
+    "lookup_vendor",
+    "read_vendor_record"
+  ],
+  "query_table": [
+    "query_table",
+    "search_data",
+    "filter_records",
+    "get_all_entities",
+    "retrieve_data"
+  ],
+  "resolve_dispute": [
+    "resolve_dispute",
+    "settle_dispute",
+    "close_dispute_case",
+    "finalize_dispute",
+    "end_dispute_process"
+  ],
+  "submit_approval_decision": [
+    "submit_approval_decision",
+    "make_approval_decision",
+    "approve_or_reject",
+    "finalize_approval",
+    "process_approval_request"
+  ],
+  "update_dispute_status": [
+    "update_dispute_status",
+    "set_dispute_status",
+    "change_dispute_state",
+    "amend_dispute_status",
+    "modify_dispute_status"
+  ],
+  "update_employee": [
+    "update_employee",
+    "modify_employee_record",
+    "change_employee_details",
+    "edit_employee_data",
+    "amend_employee"
+  ],
+  "update_employee_pay": [
+    "update_employee_pay",
+    "modify_employee_pay",
+    "change_employee_pay_status",
+    "edit_pay_record",
+    "amend_pay_details"
+  ],
+  "update_invoice": [
+    "update_invoice",
+    "modify_invoice_record",
+    "change_invoice_status",
+    "edit_invoice_details",
+    "amend_invoice"
+  ],
+  "update_offboarding_request": [
+    "update_offboarding_request",
+    "modify_offboarding_status",
+    "change_offboarding_record",
+    "set_offboarding_request_status",
+    "amend_offboarding_details"
+  ],
+  "update_onboarding_request": [
+    "update_onboarding_request",
+    "modify_onboarding_status",
+    "change_onboarding_record",
+    "set_onboarding_request_status",
+    "amend_onboarding_details"
+  ],
+  "update_payment": [
+    "update_payment",
+    "modify_payment_record",
+    "change_payment_status",
+    "edit_payment_details",
+    "amend_payment"
+  ],
+  "update_vendor": [
+    "update_vendor",
+    "modify_vendor_record",
+    "change_vendor_details",
+    "edit_vendor_data",
+    "amend_vendor"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "off_001": {
+    "request_id": "off_001",
+    "entity_id": "emp_001",
+    "entity_type": "employee",
+    "reason": "Offboarding reason for employee emp_001",
+    "status": "pending",
+    "created_at": "2022-12-15T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "off_002": {
+    "request_id": "off_002",
+    "entity_id": "emp_005",
+    "entity_type": "employee",
+    "reason": "Offboarding reason for employee emp_005",
+    "status": "pending",
+    "created_at": "2024-10-06T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "off_003": {
+    "request_id": "off_003",
+    "entity_id": "vend_002",
+    "entity_type": "vendor",
+    "reason": "Offboarding reason for vendor vend_002",
+    "status": "pending",
+    "created_at": "2023-03-15T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "off_004": {
+    "request_id": "off_004",
+    "entity_id": "vend_006",
+    "entity_type": "vendor",
+    "reason": "Offboarding reason for vendor vend_006",
+    "status": "pending",
+    "created_at": "2025-01-04T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  }
+}

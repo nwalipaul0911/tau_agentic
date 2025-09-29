@@ -1,12 +1,302 @@
-[
-  {
+{
+  "ord_001": {
     "order_id": "ord_001",
-    "vendor_id": "ven_001",
-    "order_type": "purchase",
-    "description": "Laptop procurement for engineering team",
-    "amount": 5000.00,
-    "status": "approved",
-    "created_at": "2025-09-23T12:00:00Z",
-    "updated_at": "2025-09-23T12:00:00Z"
+    "vendor_id": "vend_001",
+    "order_type": "services",
+    "description": "Order ord_001 for Garza Inc",
+    "amount": 1000,
+    "status": "fulfilled",
+    "created_at": "2022-09-24T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_002": {
+    "order_id": "ord_002",
+    "vendor_id": "vend_002",
+    "order_type": "licensing",
+    "description": "Order ord_002 for Gray-Mayo",
+    "amount": 1500,
+    "status": "cancelled",
+    "created_at": "2023-04-12T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_003": {
+    "order_id": "ord_003",
+    "vendor_id": "vend_003",
+    "order_type": "goods",
+    "description": "Order ord_003 for Gill, Romero and Rodriguez",
+    "amount": 2000,
+    "status": "open",
+    "created_at": "2023-10-30T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_004": {
+    "order_id": "ord_004",
+    "vendor_id": "vend_004",
+    "order_type": "services",
+    "description": "Order ord_004 for Ramirez Group",
+    "amount": 2500,
+    "status": "fulfilled",
+    "created_at": "2024-05-17T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_005": {
+    "order_id": "ord_005",
+    "vendor_id": "vend_005",
+    "order_type": "licensing",
+    "description": "Order ord_005 for Higgins, Moore and Phillips",
+    "amount": 3000,
+    "status": "cancelled",
+    "created_at": "2024-12-05T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_006": {
+    "order_id": "ord_006",
+    "vendor_id": "vend_006",
+    "order_type": "goods",
+    "description": "Order ord_006 for Contreras PLC",
+    "amount": 3500,
+    "status": "open",
+    "created_at": "2025-06-23T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_007": {
+    "order_id": "ord_007",
+    "vendor_id": "vend_007",
+    "order_type": "services",
+    "description": "Order ord_007 for Pham-Shields",
+    "amount": 4000,
+    "status": "fulfilled",
+    "created_at": "2026-01-10T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_008": {
+    "order_id": "ord_008",
+    "vendor_id": "vend_001",
+    "order_type": "licensing",
+    "description": "Order ord_008 for Garza Inc",
+    "amount": 4500,
+    "status": "cancelled",
+    "created_at": "2023-06-06T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_009": {
+    "order_id": "ord_009",
+    "vendor_id": "vend_002",
+    "order_type": "goods",
+    "description": "Order ord_009 for Gray-Mayo",
+    "amount": 5000,
+    "status": "open",
+    "created_at": "2023-12-24T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_010": {
+    "order_id": "ord_010",
+    "vendor_id": "vend_003",
+    "order_type": "services",
+    "description": "Order ord_010 for Gill, Romero and Rodriguez",
+    "amount": 500,
+    "status": "fulfilled",
+    "created_at": "2024-07-11T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_011": {
+    "order_id": "ord_011",
+    "vendor_id": "vend_004",
+    "order_type": "licensing",
+    "description": "Order ord_011 for Ramirez Group",
+    "amount": 1000,
+    "status": "cancelled",
+    "created_at": "2025-01-28T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_012": {
+    "order_id": "ord_012",
+    "vendor_id": "vend_005",
+    "order_type": "goods",
+    "description": "Order ord_012 for Higgins, Moore and Phillips",
+    "amount": 1500,
+    "status": "open",
+    "created_at": "2025-08-17T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_013": {
+    "order_id": "ord_013",
+    "vendor_id": "vend_006",
+    "order_type": "services",
+    "description": "Order ord_013 for Contreras PLC",
+    "amount": 2000,
+    "status": "fulfilled",
+    "created_at": "2026-03-06T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_014": {
+    "order_id": "ord_014",
+    "vendor_id": "vend_007",
+    "order_type": "licensing",
+    "description": "Order ord_014 for Pham-Shields",
+    "amount": 2500,
+    "status": "cancelled",
+    "created_at": "2026-09-22T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_015": {
+    "order_id": "ord_015",
+    "vendor_id": "vend_001",
+    "order_type": "goods",
+    "description": "Order ord_015 for Garza Inc",
+    "amount": 3000,
+    "status": "open",
+    "created_at": "2024-02-17T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_016": {
+    "order_id": "ord_016",
+    "vendor_id": "vend_002",
+    "order_type": "services",
+    "description": "Order ord_016 for Gray-Mayo",
+    "amount": 3500,
+    "status": "fulfilled",
+    "created_at": "2024-09-04T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_017": {
+    "order_id": "ord_017",
+    "vendor_id": "vend_003",
+    "order_type": "licensing",
+    "description": "Order ord_017 for Gill, Romero and Rodriguez",
+    "amount": 4000,
+    "status": "cancelled",
+    "created_at": "2025-03-24T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_018": {
+    "order_id": "ord_018",
+    "vendor_id": "vend_004",
+    "order_type": "goods",
+    "description": "Order ord_018 for Ramirez Group",
+    "amount": 4500,
+    "status": "open",
+    "created_at": "2025-10-10T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_019": {
+    "order_id": "ord_019",
+    "vendor_id": "vend_005",
+    "order_type": "services",
+    "description": "Order ord_019 for Higgins, Moore and Phillips",
+    "amount": 5000,
+    "status": "fulfilled",
+    "created_at": "2026-04-30T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_020": {
+    "order_id": "ord_020",
+    "vendor_id": "vend_006",
+    "order_type": "licensing",
+    "description": "Order ord_020 for Contreras PLC",
+    "amount": 500,
+    "status": "cancelled",
+    "created_at": "2026-11-16T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_021": {
+    "order_id": "ord_021",
+    "vendor_id": "vend_007",
+    "order_type": "goods",
+    "description": "Order ord_021 for Pham-Shields",
+    "amount": 1000,
+    "status": "open",
+    "created_at": "2027-06-05T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_022": {
+    "order_id": "ord_022",
+    "vendor_id": "vend_001",
+    "order_type": "services",
+    "description": "Order ord_022 for Garza Inc",
+    "amount": 1500,
+    "status": "fulfilled",
+    "created_at": "2024-10-29T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_023": {
+    "order_id": "ord_023",
+    "vendor_id": "vend_002",
+    "order_type": "licensing",
+    "description": "Order ord_023 for Gray-Mayo",
+    "amount": 2000,
+    "status": "cancelled",
+    "created_at": "2025-05-18T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_024": {
+    "order_id": "ord_024",
+    "vendor_id": "vend_003",
+    "order_type": "goods",
+    "description": "Order ord_024 for Gill, Romero and Rodriguez",
+    "amount": 2500,
+    "status": "open",
+    "created_at": "2025-12-04T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_025": {
+    "order_id": "ord_025",
+    "vendor_id": "vend_004",
+    "order_type": "services",
+    "description": "Order ord_025 for Ramirez Group",
+    "amount": 3000,
+    "status": "fulfilled",
+    "created_at": "2026-06-23T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_026": {
+    "order_id": "ord_026",
+    "vendor_id": "vend_005",
+    "order_type": "licensing",
+    "description": "Order ord_026 for Higgins, Moore and Phillips",
+    "amount": 3500,
+    "status": "cancelled",
+    "created_at": "2027-01-10T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_027": {
+    "order_id": "ord_027",
+    "vendor_id": "vend_006",
+    "order_type": "goods",
+    "description": "Order ord_027 for Contreras PLC",
+    "amount": 4000,
+    "status": "open",
+    "created_at": "2027-07-30T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_028": {
+    "order_id": "ord_028",
+    "vendor_id": "vend_007",
+    "order_type": "services",
+    "description": "Order ord_028 for Pham-Shields",
+    "amount": 4500,
+    "status": "fulfilled",
+    "created_at": "2028-02-15T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_029": {
+    "order_id": "ord_029",
+    "vendor_id": "vend_001",
+    "order_type": "licensing",
+    "description": "Order ord_029 for Garza Inc",
+    "amount": 5000,
+    "status": "cancelled",
+    "created_at": "2025-07-12T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "ord_030": {
+    "order_id": "ord_030",
+    "vendor_id": "vend_002",
+    "order_type": "goods",
+    "description": "Order ord_030 for Gray-Mayo",
+    "amount": 500,
+    "status": "open",
+    "created_at": "2026-01-28T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
   }
-]
+}

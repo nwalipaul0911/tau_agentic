@@ -1,0 +1,472 @@
+{
+  "audit_001": {
+    "audit_id": "audit_001",
+    "entity_type": "payroll_run",
+    "entity_id": "prun_001",
+    "action_performed": "created",
+    "timestamp": "2025-09-23T11:59:59+00:00",
+    "performed_by": "emp_001",
+    "role": "system",
+    "details": {}
+  },
+  "audit_002": {
+    "audit_id": "audit_002",
+    "entity_type": "payroll_run",
+    "entity_id": "prun_004",
+    "action_performed": "paid",
+    "timestamp": "2025-09-23T11:59:58+00:00",
+    "performed_by": "emp_004",
+    "role": "system",
+    "details": {}
+  },
+  "audit_003": {
+    "audit_id": "audit_003",
+    "entity_type": "payroll_run",
+    "entity_id": "prun_007",
+    "action_performed": "approved",
+    "timestamp": "2025-09-23T11:59:57+00:00",
+    "performed_by": "emp_007",
+    "role": "system",
+    "details": {}
+  },
+  "audit_004": {
+    "audit_id": "audit_004",
+    "entity_type": "payroll_run",
+    "entity_id": "prun_010",
+    "action_performed": "updated",
+    "timestamp": "2025-09-23T11:59:56+00:00",
+    "performed_by": "emp_003",
+    "role": "system",
+    "details": {}
+  },
+  "audit_005": {
+    "audit_id": "audit_005",
+    "entity_type": "payroll_run",
+    "entity_id": "prun_013",
+    "action_performed": "rejected",
+    "timestamp": "2025-09-23T11:59:55+00:00",
+    "performed_by": "emp_006",
+    "role": "system",
+    "details": {}
+  },
+  "audit_006": {
+    "audit_id": "audit_006",
+    "entity_type": "payroll_run",
+    "entity_id": "prun_016",
+    "action_performed": "created",
+    "timestamp": "2025-09-23T11:59:54+00:00",
+    "performed_by": "emp_002",
+    "role": "system",
+    "details": {}
+  },
+  "audit_007": {
+    "audit_id": "audit_007",
+    "entity_type": "payroll_run",
+    "entity_id": "prun_019",
+    "action_performed": "paid",
+    "timestamp": "2025-09-23T11:59:53+00:00",
+    "performed_by": "emp_005",
+    "role": "system",
+    "details": {}
+  },
+  "audit_008": {
+    "audit_id": "audit_008",
+    "entity_type": "invoice",
+    "entity_id": "inv_002",
+    "action_performed": "approved",
+    "timestamp": "2025-09-23T11:59:52+00:00",
+    "performed_by": "emp_001",
+    "role": "system",
+    "details": {}
+  },
+  "audit_009": {
+    "audit_id": "audit_009",
+    "entity_type": "invoice",
+    "entity_id": "inv_005",
+    "action_performed": "updated",
+    "timestamp": "2025-09-23T11:59:51+00:00",
+    "performed_by": "emp_004",
+    "role": "system",
+    "details": {}
+  },
+  "audit_010": {
+    "audit_id": "audit_010",
+    "entity_type": "invoice",
+    "entity_id": "inv_008",
+    "action_performed": "rejected",
+    "timestamp": "2025-09-23T11:59:50+00:00",
+    "performed_by": "emp_007",
+    "role": "system",
+    "details": {}
+  },
+  "audit_011": {
+    "audit_id": "audit_011",
+    "entity_type": "invoice",
+    "entity_id": "inv_011",
+    "action_performed": "created",
+    "timestamp": "2025-09-23T11:59:49+00:00",
+    "performed_by": "emp_003",
+    "role": "system",
+    "details": {}
+  },
+  "audit_012": {
+    "audit_id": "audit_012",
+    "entity_type": "invoice",
+    "entity_id": "inv_014",
+    "action_performed": "paid",
+    "timestamp": "2025-09-23T11:59:48+00:00",
+    "performed_by": "emp_006",
+    "role": "system",
+    "details": {}
+  },
+  "audit_013": {
+    "audit_id": "audit_013",
+    "entity_type": "invoice",
+    "entity_id": "inv_017",
+    "action_performed": "approved",
+    "timestamp": "2025-09-23T11:59:47+00:00",
+    "performed_by": "emp_002",
+    "role": "system",
+    "details": {}
+  },
+  "audit_014": {
+    "audit_id": "audit_014",
+    "entity_type": "invoice",
+    "entity_id": "inv_020",
+    "action_performed": "updated",
+    "timestamp": "2025-09-23T11:59:46+00:00",
+    "performed_by": "emp_005",
+    "role": "system",
+    "details": {}
+  },
+  "audit_015": {
+    "audit_id": "audit_015",
+    "entity_type": "invoice",
+    "entity_id": "inv_023",
+    "action_performed": "rejected",
+    "timestamp": "2025-09-23T11:59:45+00:00",
+    "performed_by": "emp_001",
+    "role": "system",
+    "details": {}
+  },
+  "audit_016": {
+    "audit_id": "audit_016",
+    "entity_type": "invoice",
+    "entity_id": "inv_026",
+    "action_performed": "created",
+    "timestamp": "2025-09-23T11:59:44+00:00",
+    "performed_by": "emp_004",
+    "role": "system",
+    "details": {}
+  },
+  "audit_017": {
+    "audit_id": "audit_017",
+    "entity_type": "invoice",
+    "entity_id": "inv_029",
+    "action_performed": "paid",
+    "timestamp": "2025-09-23T11:59:43+00:00",
+    "performed_by": "emp_007",
+    "role": "system",
+    "details": {}
+  },
+  "audit_018": {
+    "audit_id": "audit_018",
+    "entity_type": "payment",
+    "entity_id": "pay_002",
+    "action_performed": "approved",
+    "timestamp": "2025-09-23T11:59:42+00:00",
+    "performed_by": "emp_003",
+    "role": "system",
+    "details": {}
+  },
+  "audit_019": {
+    "audit_id": "audit_019",
+    "entity_type": "payment",
+    "entity_id": "pay_005",
+    "action_performed": "updated",
+    "timestamp": "2025-09-23T11:59:41+00:00",
+    "performed_by": "emp_006",
+    "role": "system",
+    "details": {}
+  },
+  "audit_020": {
+    "audit_id": "audit_020",
+    "entity_type": "payment",
+    "entity_id": "pay_008",
+    "action_performed": "rejected",
+    "timestamp": "2025-09-23T11:59:40+00:00",
+    "performed_by": "emp_002",
+    "role": "system",
+    "details": {}
+  },
+  "audit_021": {
+    "audit_id": "audit_021",
+    "entity_type": "payment",
+    "entity_id": "pay_011",
+    "action_performed": "created",
+    "timestamp": "2025-09-23T11:59:39+00:00",
+    "performed_by": "emp_005",
+    "role": "system",
+    "details": {}
+  },
+  "audit_022": {
+    "audit_id": "audit_022",
+    "entity_type": "payment",
+    "entity_id": "pay_014",
+    "action_performed": "paid",
+    "timestamp": "2025-09-23T11:59:38+00:00",
+    "performed_by": "emp_001",
+    "role": "system",
+    "details": {}
+  },
+  "audit_023": {
+    "audit_id": "audit_023",
+    "entity_type": "payment",
+    "entity_id": "pay_017",
+    "action_performed": "approved",
+    "timestamp": "2025-09-23T11:59:37+00:00",
+    "performed_by": "emp_004",
+    "role": "system",
+    "details": {}
+  },
+  "audit_024": {
+    "audit_id": "audit_024",
+    "entity_type": "payment",
+    "entity_id": "pay_020",
+    "action_performed": "updated",
+    "timestamp": "2025-09-23T11:59:36+00:00",
+    "performed_by": "emp_007",
+    "role": "system",
+    "details": {}
+  },
+  "audit_025": {
+    "audit_id": "audit_025",
+    "entity_type": "payment",
+    "entity_id": "pay_023",
+    "action_performed": "rejected",
+    "timestamp": "2025-09-23T11:59:35+00:00",
+    "performed_by": "emp_003",
+    "role": "system",
+    "details": {}
+  },
+  "audit_026": {
+    "audit_id": "audit_026",
+    "entity_type": "payment",
+    "entity_id": "pay_026",
+    "action_performed": "created",
+    "timestamp": "2025-09-23T11:59:34+00:00",
+    "performed_by": "emp_006",
+    "role": "system",
+    "details": {}
+  },
+  "audit_027": {
+    "audit_id": "audit_027",
+    "entity_type": "payment",
+    "entity_id": "pay_029",
+    "action_performed": "paid",
+    "timestamp": "2025-09-23T11:59:33+00:00",
+    "performed_by": "emp_002",
+    "role": "system",
+    "details": {}
+  },
+  "audit_028": {
+    "audit_id": "audit_028",
+    "entity_type": "payment",
+    "entity_id": "pay_032",
+    "action_performed": "approved",
+    "timestamp": "2025-09-23T11:59:32+00:00",
+    "performed_by": "emp_005",
+    "role": "system",
+    "details": {}
+  },
+  "audit_029": {
+    "audit_id": "audit_029",
+    "entity_type": "payment",
+    "entity_id": "pay_035",
+    "action_performed": "updated",
+    "timestamp": "2025-09-23T11:59:31+00:00",
+    "performed_by": "emp_001",
+    "role": "system",
+    "details": {}
+  },
+  "audit_030": {
+    "audit_id": "audit_030",
+    "entity_type": "payment",
+    "entity_id": "pay_038",
+    "action_performed": "rejected",
+    "timestamp": "2025-09-23T11:59:30+00:00",
+    "performed_by": "emp_004",
+    "role": "system",
+    "details": {}
+  },
+  "audit_031": {
+    "audit_id": "audit_031",
+    "entity_type": "payment",
+    "entity_id": "pay_041",
+    "action_performed": "created",
+    "timestamp": "2025-09-23T11:59:29+00:00",
+    "performed_by": "emp_007",
+    "role": "system",
+    "details": {}
+  },
+  "audit_032": {
+    "audit_id": "audit_032",
+    "entity_type": "payment",
+    "entity_id": "pay_044",
+    "action_performed": "paid",
+    "timestamp": "2025-09-23T11:59:28+00:00",
+    "performed_by": "emp_003",
+    "role": "system",
+    "details": {}
+  },
+  "audit_033": {
+    "audit_id": "audit_033",
+    "entity_type": "onboarding",
+    "entity_id": "onb_001",
+    "action_performed": "approved",
+    "timestamp": "2025-09-23T11:59:27+00:00",
+    "performed_by": "emp_006",
+    "role": "system",
+    "details": {}
+  },
+  "audit_034": {
+    "audit_id": "audit_034",
+    "entity_type": "onboarding",
+    "entity_id": "onb_004",
+    "action_performed": "updated",
+    "timestamp": "2025-09-23T11:59:26+00:00",
+    "performed_by": "emp_002",
+    "role": "system",
+    "details": {}
+  },
+  "audit_035": {
+    "audit_id": "audit_035",
+    "entity_type": "onboarding",
+    "entity_id": "onb_007",
+    "action_performed": "rejected",
+    "timestamp": "2025-09-23T11:59:25+00:00",
+    "performed_by": "emp_005",
+    "role": "system",
+    "details": {}
+  },
+  "audit_036": {
+    "audit_id": "audit_036",
+    "entity_type": "onboarding",
+    "entity_id": "onb_010",
+    "action_performed": "created",
+    "timestamp": "2025-09-23T11:59:24+00:00",
+    "performed_by": "emp_001",
+    "role": "system",
+    "details": {}
+  },
+  "audit_037": {
+    "audit_id": "audit_037",
+    "entity_type": "onboarding",
+    "entity_id": "onb_013",
+    "action_performed": "paid",
+    "timestamp": "2025-09-23T11:59:23+00:00",
+    "performed_by": "emp_004",
+    "role": "system",
+    "details": {}
+  },
+  "audit_038": {
+    "audit_id": "audit_038",
+    "entity_type": "onboarding",
+    "entity_id": "onb_016",
+    "action_performed": "approved",
+    "timestamp": "2025-09-23T11:59:22+00:00",
+    "performed_by": "emp_007",
+    "role": "system",
+    "details": {}
+  },
+  "audit_039": {
+    "audit_id": "audit_039",
+    "entity_type": "onboarding",
+    "entity_id": "onb_019",
+    "action_performed": "updated",
+    "timestamp": "2025-09-23T11:59:21+00:00",
+    "performed_by": "emp_003",
+    "role": "system",
+    "details": {}
+  },
+  "audit_040": {
+    "audit_id": "audit_040",
+    "entity_type": "onboarding",
+    "entity_id": "onb_022",
+    "action_performed": "rejected",
+    "timestamp": "2025-09-23T11:59:20+00:00",
+    "performed_by": "emp_006",
+    "role": "system",
+    "details": {}
+  },
+  "audit_041": {
+    "audit_id": "audit_041",
+    "entity_type": "onboarding",
+    "entity_id": "onb_025",
+    "action_performed": "created",
+    "timestamp": "2025-09-23T11:59:19+00:00",
+    "performed_by": "emp_002",
+    "role": "system",
+    "details": {}
+  },
+  "audit_042": {
+    "audit_id": "audit_042",
+    "entity_type": "onboarding",
+    "entity_id": "onb_028",
+    "action_performed": "paid",
+    "timestamp": "2025-09-23T11:59:18+00:00",
+    "performed_by": "emp_005",
+    "role": "system",
+    "details": {}
+  },
+  "audit_043": {
+    "audit_id": "audit_043",
+    "entity_type": "onboarding",
+    "entity_id": "onb_031",
+    "action_performed": "approved",
+    "timestamp": "2025-09-23T11:59:17+00:00",
+    "performed_by": "emp_001",
+    "role": "system",
+    "details": {}
+  },
+  "audit_044": {
+    "audit_id": "audit_044",
+    "entity_type": "onboarding",
+    "entity_id": "onb_034",
+    "action_performed": "updated",
+    "timestamp": "2025-09-23T11:59:16+00:00",
+    "performed_by": "emp_004",
+    "role": "system",
+    "details": {}
+  },
+  "audit_045": {
+    "audit_id": "audit_045",
+    "entity_type": "onboarding",
+    "entity_id": "onb_037",
+    "action_performed": "rejected",
+    "timestamp": "2025-09-23T11:59:15+00:00",
+    "performed_by": "emp_007",
+    "role": "system",
+    "details": {}
+  },
+  "audit_046": {
+    "audit_id": "audit_046",
+    "entity_type": "onboarding",
+    "entity_id": "onb_040",
+    "action_performed": "created",
+    "timestamp": "2025-09-23T11:59:14+00:00",
+    "performed_by": "emp_003",
+    "role": "system",
+    "details": {}
+  },
+  "audit_047": {
+    "audit_id": "audit_047",
+    "entity_type": "offboarding",
+    "entity_id": "off_003",
+    "action_performed": "paid",
+    "timestamp": "2025-09-23T11:59:13+00:00",
+    "performed_by": "emp_006",
+    "role": "system",
+    "details": {}
+  }
+}

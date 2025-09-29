@@ -1,0 +1,27 @@
+{
+  "dept_001": {
+    "department_id": "dept_001",
+    "name": "Clinical research associate Department",
+    "head_id": "emp_001"
+  },
+  "dept_002": {
+    "department_id": "dept_002",
+    "name": "Agricultural consultant Department",
+    "head_id": "emp_002"
+  },
+  "dept_003": {
+    "department_id": "dept_003",
+    "name": "Haematologist Department",
+    "head_id": "emp_003"
+  },
+  "dept_004": {
+    "department_id": "dept_004",
+    "name": "Financial risk analyst Department",
+    "head_id": "emp_004"
+  },
+  "dept_005": {
+    "department_id": "dept_005",
+    "name": "Environmental health practitioner Department",
+    "head_id": "emp_005"
+  }
+}

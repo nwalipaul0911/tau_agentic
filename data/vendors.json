@@ -1,12 +1,79 @@
-[
-  {
-    "vendor_id": "ven_001",
-    "legal_name": "Tech Supplies Ltd",
-    "tax_id": "VEND98765",
-    "bank_account_number": "9876543210",
-    "bank_routing_number": "222000111",
-    "service": "IT Equipment Supply",
-    "created_at": "2025-09-23T12:00:00Z",
-    "updated_at": "2025-09-23T12:00:00Z"
+{
+  "vend_001": {
+    "vendor_id": "vend_001",
+    "legal_name": "Garza Inc",
+    "tax_id": "TAX-00001",
+    "bank_account_number": "VEND0000000001",
+    "bank_routing_number": "100000001",
+    "service": "Assimilated background data-warehouse",
+    "created_at": "2022-09-24T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  },
+  "vend_002": {
+    "vendor_id": "vend_002",
+    "legal_name": "Gray-Mayo",
+    "tax_id": "TAX-00007",
+    "bank_account_number": "VEND0000000007",
+    "bank_routing_number": "100000007",
+    "service": "Sharable system-worthy open architecture",
+    "created_at": "2023-03-07T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  },
+  "vend_003": {
+    "vendor_id": "vend_003",
+    "legal_name": "Gill, Romero and Rodriguez",
+    "tax_id": "TAX-00013",
+    "bank_account_number": "VEND0000000013",
+    "bank_routing_number": "100000013",
+    "service": "Self-enabling exuding productivity",
+    "created_at": "2023-08-18T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  },
+  "vend_004": {
+    "vendor_id": "vend_004",
+    "legal_name": "Ramirez Group",
+    "tax_id": "TAX-00019",
+    "bank_account_number": "VEND0000000019",
+    "bank_routing_number": "100000019",
+    "service": "Extended needs-based capacity",
+    "created_at": "2024-01-29T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  },
+  "vend_005": {
+    "vendor_id": "vend_005",
+    "legal_name": "Higgins, Moore and Phillips",
+    "tax_id": "TAX-00025",
+    "bank_account_number": "VEND0000000025",
+    "bank_routing_number": "100000025",
+    "service": "Centralized optimal support",
+    "created_at": "2024-07-12T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  },
+  "vend_006": {
+    "vendor_id": "vend_006",
+    "legal_name": "Contreras PLC",
+    "tax_id": "TAX-00031",
+    "bank_account_number": "VEND0000000031",
+    "bank_routing_number": "100000031",
+    "service": "Innovative stable benchmark",
+    "created_at": "2024-12-23T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
+  },
+  "vend_007": {
+    "vendor_id": "vend_007",
+    "legal_name": "Pham-Shields",
+    "tax_id": "TAX-00037",
+    "bank_account_number": "VEND0000000037",
+    "bank_routing_number": "100000037",
+    "service": "Fully-configurable encompassing complexity",
+    "created_at": "2025-06-05T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00",
+    "status": "active"
   }
-]
+}

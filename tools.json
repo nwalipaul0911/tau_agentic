@@ -1,0 +1,444 @@
+{
+  "query_table": {
+    "data": {
+      "type": "string",
+      "description": "The table to query."
+    },
+    "filters": {
+      "type": "dict",
+      "description": "A dictionary of column-value pairs to filter the records."
+    }
+  },
+  "get_employee": {
+    "data": {
+      "type": "string",
+      "description": "The employees table."
+    },
+    "employee_id": {
+      "type": "string",
+      "description": "The ID of the employee to retrieve."
+    }
+  },
+  "get_vendor": {
+    "data": {
+      "type": "string",
+      "description": "The vendors table."
+    },
+    "vendor_id": {
+      "type": "string",
+      "description": "The ID of the vendor to retrieve."
+    }
+  },
+  "get_department": {
+    "data": {
+      "type": "string",
+      "description": "The departments table."
+    },
+    "department_id": {
+      "type": "string",
+      "description": "The ID of the department to retrieve."
+    }
+  },
+  "get_payroll_run": {
+    "data": {
+      "type": "string",
+      "description": "The payroll_runs table."
+    },
+    "payroll_run_id": {
+      "type": "string",
+      "description": "The ID of the payroll run to retrieve."
+    }
+  },
+  "get_employee_pay": {
+    "data": {
+      "type": "string",
+      "description": "The employee_pays table."
+    },
+    "pay_id": {
+      "type": "string",
+      "description": "The ID of the employee pay record to retrieve."
+    }
+  },
+  "get_invoice": {
+    "data": {
+      "type": "string",
+      "description": "The invoices table."
+    },
+    "invoice_id": {
+      "type": "string",
+      "description": "The ID of the invoice to retrieve."
+    }
+  },
+  "get_order": {
+    "data": {
+      "type": "string",
+      "description": "The orders table."
+    },
+    "order_id": {
+      "type": "string",
+      "description": "The ID of the order to retrieve."
+    }
+  },
+  "get_payment": {
+    "data": {
+      "type": "string",
+      "description": "The payments table."
+    },
+    "payment_id": {
+      "type": "string",
+      "description": "The ID of the payment record to retrieve."
+    }
+  },
+  "get_approval_request": {
+    "data": {
+      "type": "string",
+      "description": "The approvals table."
+    },
+    "approval_id": {
+      "type": "string",
+      "description": "The ID of the approval request to retrieve."
+    }
+  },
+  "get_dispute": {
+    "data": {
+      "type": "string",
+      "description": "The disputes table."
+    },
+    "dispute_id": {
+      "type": "string",
+      "description": "The ID of the dispute to retrieve."
+    }
+  },
+  "get_offboarding_request": {
+    "data": {
+      "type": "string",
+      "description": "The offboarding_requests table."
+    },
+    "request_id": {
+      "type": "string",
+      "description": "The ID of the offboarding request to retrieve."
+    }
+  },
+  "get_onboarding_request": {
+    "data": {
+      "type": "string",
+      "description": "The onboarding_requests table."
+    },
+    "request_id": {
+      "type": "string",
+      "description": "The ID of the onboarding request to retrieve."
+    }
+  },
+  "get_audit_entries_for_entity": {
+    "data": {
+      "type": "string",
+      "description": "The audit_logs table."
+    },
+    "entity_type": {
+      "type": "string",
+      "description": "The type of entity to audit."
+    },
+    "entity_id": {
+      "type": "string",
+      "description": "The ID of the entity to audit."
+    }
+  },
+  "get_pending_approvals": {
+    "data": {
+      "type": "string",
+      "description": "The approvals table."
+    },
+    "approver_id": {
+      "type": "string",
+      "description": "The ID of the approver to check for pending requests."
+    }
+  },
+  "create_employee": {
+    "data": {
+      "type": "string",
+      "description": "The employees table."
+    },
+    "data_record": {
+      "type": "dict",
+      "description": "A dictionary of data for the new employee record."
+    }
+  },
+  "create_vendor": {
+    "data": {
+      "type": "string",
+      "description": "The vendors table."
+    },
+    "data_record": {
+      "type": "dict",
+      "description": "A dictionary of data for the new vendor record."
+    }
+  },
+  "create_offboarding_request": {
+    "data": {
+      "type": "string",
+      "description": "The offboarding_requests table."
+    },
+    "data_record": {
+      "type": "dict",
+      "description": "A dictionary of data for the new offboarding request."
+    }
+  },
+  "create_payroll_run": {
+    "data": {
+      "type": "string",
+      "description": "The payroll_runs table."
+    },
+    "data_record": {
+      "type": "dict",
+      "description": "A dictionary of data for the new payroll run."
+    }
+  },
+  "create_approval_request": {
+    "data": {
+      "type": "string",
+      "description": "The approvals table."
+    },
+    "data_record": {
+      "type": "dict",
+      "description": "A dictionary of data for the new approval request."
+    }
+  },
+  "create_invoice": {
+    "data": {
+      "type": "string",
+      "description": "The invoices table."
+    },
+    "data_record": {
+      "type": "dict",
+      "description": "A dictionary of data for the new invoice record."
+    }
+  },
+  "create_payment": {
+    "data": {
+      "type": "string",
+      "description": "The payments table."
+    },
+    "data_record": {
+      "type": "dict",
+      "description": "A dictionary of data for the new payment record."
+    }
+  },
+  "create_dispute": {
+    "data": {
+      "type": "string",
+      "description": "The disputes table."
+    },
+    "data_record": {
+      "type": "dict",
+      "description": "A dictionary of data for the new dispute record."
+    }
+  },
+  "update_onboarding_request": {
+    "data": {
+      "type": "string",
+      "description": "The onboarding_requests table."
+    },
+    "request_id": {
+      "type": "string",
+      "description": "The ID of the request to update."
+    },
+    "update_fields": {
+      "type": "dict",
+      "description": "A dictionary of fields and their new values."
+    }
+  },
+  "update_employee": {
+    "data": {
+      "type": "string",
+      "description": "The employees table."
+    },
+    "employee_id": {
+      "type": "string",
+      "description": "The ID of the employee to update."
+    },
+    "update_fields": {
+      "type": "dict",
+      "description": "A dictionary of fields and their new values."
+    }
+  },
+  "update_offboarding_request": {
+    "data": {
+      "type": "string",
+      "description": "The offboarding_requests table."
+    },
+    "request_id": {
+      "type": "string",
+      "description": "The ID of the offboarding request to update."
+    },
+    "update_fields": {
+      "type": "dict",
+      "description": "A dictionary of fields and their new values."
+    }
+  },
+  "update_vendor": {
+    "data": {
+      "type": "string",
+      "description": "The vendors table."
+    },
+    "vendor_id": {
+      "type": "string",
+      "description": "The ID of the vendor to update."
+    },
+    "update_fields": {
+      "type": "dict",
+      "description": "A dictionary of fields and their new values."
+    }
+  },
+  "update_payment": {
+    "data": {
+      "type": "string",
+      "description": "The payments table."
+    },
+    "payment_id": {
+      "type": "string",
+      "description": "The ID of the payment to update."
+    },
+    "update_fields": {
+      "type": "dict",
+      "description": "A dictionary of fields and their new values."
+    }
+  },
+  "update_invoice": {
+    "data": {
+      "type": "string",
+      "description": "The invoices table."
+    },
+    "invoice_id": {
+      "type": "string",
+      "description": "The ID of the invoice to update."
+    },
+    "update_fields": {
+      "type": "dict",
+      "description": "A dictionary of fields and their new values."
+    }
+  },
+  "update_employee_pay": {
+    "data": {
+      "type": "string",
+      "description": "The employee_pays table."
+    },
+    "pay_id": {
+      "type": "string",
+      "description": "The ID of the employee pay to update."
+    },
+    "update_fields": {
+      "type": "dict",
+      "description": "A dictionary of fields and their new values."
+    }
+  },
+  "update_dispute_status": {
+    "data": {
+      "type": "string",
+      "description": "The disputes table."
+    },
+    "dispute_id": {
+      "type": "string",
+      "description": "The ID of the dispute to update."
+    },
+    "update_fields": {
+      "type": "dict",
+      "description": "A dictionary of fields and their new values."
+    }
+  },
+  "submit_approval_decision": {
+    "data": {
+      "type": "string",
+      "description": "The approvals table."
+    },
+    "approval_id": {
+      "type": "string",
+      "description": "The ID of the approval request to update."
+    },
+    "decision": {
+      "type": "string",
+      "description": "The decision to submit ('approved', 'rejected', 'escalated')."
+    },
+    "comments": {
+      "type": "string",
+      "description": "Optional comments for the decision."
+    },
+    "performed_by": {
+      "type": "string",
+      "description": "The ID of the user performing the action."
+    }
+  },
+  "generate_employee_pays": {
+    "data": {
+      "type": "string",
+      "description": "The employee_pays table."
+    },
+    "payroll_run_id": {
+      "type": "string",
+      "description": "The ID of the payroll run to associate the pays with."
+    },
+    "employee_pays_list": {
+      "type": "list",
+      "description": "A list of employee pay records to create in batch."
+    }
+  },
+  "execute_external_payment": {
+    "payment_id": {
+      "type": "string",
+      "description": "The ID of the payment to execute."
+    },
+    "data": {
+      "type": "string",
+      "description": "The payments table."
+    },
+    "method": {
+      "type": "string",
+      "description": "The payment method to use."
+    },
+    "amount": {
+      "type": "decimal",
+      "description": "The amount to be paid."
+    },
+    "destination_details": {
+      "type": "dict",
+      "description": "Details about the destination account."
+    }
+  },
+  "add_audit_logs_entry": {
+    "data": {
+      "type": "string",
+      "description": "The audit_logs table."
+    },
+    "audit_id": {
+      "type": "string",
+      "description": "The ID of the new audit entry."
+    },
+    "entity_type": {
+      "type": "string",
+      "description": "The type of entity being audited."
+    },
+    "entity_id": {
+      "type": "string",
+      "description": "The ID of the entity being audited."
+    },
+    "action_performed": {
+      "type": "string",
+      "description": "The action that was performed."
+    },
+    "performed_by": {
+      "type": "string",
+      "description": "The ID of the user or system performing the action."
+    },
+    "role": {
+      "type": "string",
+      "description": "The role of the performer."
+    },
+    "timestamp": {
+      "type": "string",
+      "description": "The timestamp of the action."
+    },
+    "details": {
+      "type": "json",
+      "description": "Additional details about the action."
+    }
+  }
+}

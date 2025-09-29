@@ -1,11 +1,222 @@
-[
-  {
+{
+  "disp_001": {
     "dispute_id": "disp_001",
+    "dispute_type": "payroll",
+    "entity_id": "epay_001",
+    "raised_by": "emp_001",
+    "description": "Dispute for payroll ID: epay_001",
+    "resolution": "Resolution for payroll dispute disp_001",
+    "status": "open",
+    "created_at": "2023-01-01T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_002": {
+    "dispute_id": "disp_002",
+    "dispute_type": "payroll",
+    "entity_id": "epay_006",
+    "raised_by": "emp_006",
+    "description": "Dispute for payroll ID: epay_006",
+    "resolution": "Resolution for payroll dispute disp_002",
+    "status": "under_review",
+    "created_at": "2023-04-21T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_003": {
+    "dispute_id": "disp_003",
+    "dispute_type": "payroll",
+    "entity_id": "epay_011",
+    "raised_by": "emp_004",
+    "description": "Dispute for payroll ID: epay_011",
+    "resolution": "Resolution for payroll dispute disp_003",
+    "status": "resolved",
+    "created_at": "2023-07-30T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_004": {
+    "dispute_id": "disp_004",
+    "dispute_type": "payroll",
+    "entity_id": "epay_016",
+    "raised_by": "emp_002",
+    "description": "Dispute for payroll ID: epay_016",
+    "resolution": "Resolution for payroll dispute disp_004",
+    "status": "escalated",
+    "created_at": "2023-11-17T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_005": {
+    "dispute_id": "disp_005",
     "dispute_type": "invoice",
     "entity_id": "inv_001",
-    "description": "Incorrect billing amount on invoice inv_001",
+    "raised_by": "vend_001",
+    "description": "Dispute for invoice ID: inv_001",
+    "resolution": "Resolution for invoice dispute disp_005",
     "status": "open",
-    "created_at": "2025-09-23T12:00:00Z",
-    "updated_at": "2025-09-23T12:00:00Z"
+    "created_at": "2022-09-25T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_006": {
+    "dispute_id": "disp_006",
+    "dispute_type": "invoice",
+    "entity_id": "inv_006",
+    "raised_by": "vend_006",
+    "description": "Dispute for invoice ID: inv_006",
+    "resolution": "Resolution for invoice dispute disp_006",
+    "status": "under_review",
+    "created_at": "2025-07-04T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_007": {
+    "dispute_id": "disp_007",
+    "dispute_type": "invoice",
+    "entity_id": "inv_011",
+    "raised_by": "vend_004",
+    "description": "Dispute for invoice ID: inv_011",
+    "resolution": "Resolution for invoice dispute disp_007",
+    "status": "resolved",
+    "created_at": "2025-02-08T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_008": {
+    "dispute_id": "disp_008",
+    "dispute_type": "invoice",
+    "entity_id": "inv_016",
+    "raised_by": "vend_002",
+    "description": "Dispute for invoice ID: inv_016",
+    "resolution": "Resolution for invoice dispute disp_008",
+    "status": "escalated",
+    "created_at": "2024-09-25T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_009": {
+    "dispute_id": "disp_009",
+    "dispute_type": "invoice",
+    "entity_id": "inv_021",
+    "raised_by": "vend_007",
+    "description": "Dispute for invoice ID: inv_021",
+    "resolution": "Resolution for invoice dispute disp_009",
+    "status": "open",
+    "created_at": "2027-06-26T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_010": {
+    "dispute_id": "disp_010",
+    "dispute_type": "invoice",
+    "entity_id": "inv_026",
+    "raised_by": "vend_005",
+    "description": "Dispute for invoice ID: inv_026",
+    "resolution": "Resolution for invoice dispute disp_010",
+    "status": "under_review",
+    "created_at": "2027-02-10T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_011": {
+    "dispute_id": "disp_011",
+    "dispute_type": "payment",
+    "entity_id": "pay_001",
+    "raised_by": "vend_001",
+    "description": "Dispute for payment ID: pay_001",
+    "resolution": "Resolution for payment dispute disp_011",
+    "status": "open",
+    "created_at": "2023-01-01T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_012": {
+    "dispute_id": "disp_012",
+    "dispute_type": "payment",
+    "entity_id": "pay_006",
+    "raised_by": "vend_006",
+    "description": "Dispute for payment ID: pay_006",
+    "resolution": "Resolution for payment dispute disp_012",
+    "status": "under_review",
+    "created_at": "2023-04-26T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_013": {
+    "dispute_id": "disp_013",
+    "dispute_type": "payment",
+    "entity_id": "pay_011",
+    "raised_by": "vend_004",
+    "description": "Dispute for payment ID: pay_011",
+    "resolution": "Resolution for payment dispute disp_013",
+    "status": "resolved",
+    "created_at": "2023-07-30T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_014": {
+    "dispute_id": "disp_014",
+    "dispute_type": "payment",
+    "entity_id": "pay_016",
+    "raised_by": "vend_002",
+    "description": "Dispute for payment ID: pay_016",
+    "resolution": "Resolution for payment dispute disp_014",
+    "status": "escalated",
+    "created_at": "2023-11-22T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_015": {
+    "dispute_id": "disp_015",
+    "dispute_type": "payment",
+    "entity_id": "pay_021",
+    "raised_by": "vend_007",
+    "description": "Dispute for payment ID: pay_021",
+    "resolution": "Resolution for payment dispute disp_015",
+    "status": "open",
+    "created_at": "2024-12-10T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_016": {
+    "dispute_id": "disp_016",
+    "dispute_type": "payment",
+    "entity_id": "pay_026",
+    "raised_by": "vend_005",
+    "description": "Dispute for payment ID: pay_026",
+    "resolution": "Resolution for payment dispute disp_016",
+    "status": "under_review",
+    "created_at": "2024-07-31T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_017": {
+    "dispute_id": "disp_017",
+    "dispute_type": "payment",
+    "entity_id": "pay_031",
+    "raised_by": "vend_003",
+    "description": "Dispute for payment ID: pay_031",
+    "resolution": "Resolution for payment dispute disp_017",
+    "status": "resolved",
+    "created_at": "2024-03-03T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_018": {
+    "dispute_id": "disp_018",
+    "dispute_type": "payment",
+    "entity_id": "pay_036",
+    "raised_by": "vend_001",
+    "description": "Dispute for payment ID: pay_036",
+    "resolution": "Resolution for payment dispute disp_018",
+    "status": "escalated",
+    "created_at": "2026-12-16T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_019": {
+    "dispute_id": "disp_019",
+    "dispute_type": "payment",
+    "entity_id": "pay_041",
+    "raised_by": "vend_006",
+    "description": "Dispute for payment ID: pay_041",
+    "resolution": "Resolution for payment dispute disp_019",
+    "status": "open",
+    "created_at": "2026-07-18T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "disp_020": {
+    "dispute_id": "disp_020",
+    "dispute_type": "payment",
+    "entity_id": "pay_046",
+    "raised_by": "vend_004",
+    "description": "Dispute for payment ID: pay_046",
+    "resolution": "Resolution for payment dispute disp_020",
+    "status": "under_review",
+    "created_at": "2026-02-07T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
   }
-]
+}

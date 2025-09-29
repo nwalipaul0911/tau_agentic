@@ -1,12 +1,302 @@
-[
-  {
+{
+  "inv_001": {
     "invoice_id": "inv_001",
-    "vendor_id": "ven_001",
+    "vendor_id": "vend_001",
     "order_id": "ord_001",
-    "amount": 5000.00,
-    "due_date": "2025-09-30",
+    "amount": 1000,
+    "due_date": "2022-10-25",
     "status": "pending_approval",
-    "created_at": "2025-09-23T12:00:00Z",
-    "updated_at": "2025-09-23T12:00:00Z"
+    "created_at": "2022-09-25T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_002": {
+    "invoice_id": "inv_002",
+    "vendor_id": "vend_002",
+    "order_id": "ord_002",
+    "amount": 1500,
+    "due_date": "2023-05-14",
+    "status": "approved",
+    "created_at": "2023-04-14T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_003": {
+    "invoice_id": "inv_003",
+    "vendor_id": "vend_003",
+    "order_id": "ord_003",
+    "amount": 2000,
+    "due_date": "2023-12-02",
+    "status": "paid",
+    "created_at": "2023-11-02T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_004": {
+    "invoice_id": "inv_004",
+    "vendor_id": "vend_004",
+    "order_id": "ord_004",
+    "amount": 2500,
+    "due_date": "2024-06-20",
+    "status": "rejected",
+    "created_at": "2024-05-21T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_005": {
+    "invoice_id": "inv_005",
+    "vendor_id": "vend_005",
+    "order_id": "ord_005",
+    "amount": 3000,
+    "due_date": "2025-01-09",
+    "status": "draft",
+    "created_at": "2024-12-10T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_006": {
+    "invoice_id": "inv_006",
+    "vendor_id": "vend_006",
+    "order_id": "ord_006",
+    "amount": 3500,
+    "due_date": "2025-07-29",
+    "status": "pending_approval",
+    "created_at": "2025-06-29T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_007": {
+    "invoice_id": "inv_007",
+    "vendor_id": "vend_007",
+    "order_id": "ord_007",
+    "amount": 4000,
+    "due_date": "2026-02-16",
+    "status": "approved",
+    "created_at": "2026-01-17T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_008": {
+    "invoice_id": "inv_008",
+    "vendor_id": "vend_001",
+    "order_id": "ord_008",
+    "amount": 4500,
+    "due_date": "2023-07-14",
+    "status": "paid",
+    "created_at": "2023-06-14T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_009": {
+    "invoice_id": "inv_009",
+    "vendor_id": "vend_002",
+    "order_id": "ord_009",
+    "amount": 5000,
+    "due_date": "2024-02-01",
+    "status": "rejected",
+    "created_at": "2024-01-02T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_010": {
+    "invoice_id": "inv_010",
+    "vendor_id": "vend_003",
+    "order_id": "ord_010",
+    "amount": 500,
+    "due_date": "2024-08-20",
+    "status": "draft",
+    "created_at": "2024-07-21T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_011": {
+    "invoice_id": "inv_011",
+    "vendor_id": "vend_004",
+    "order_id": "ord_011",
+    "amount": 1000,
+    "due_date": "2025-03-10",
+    "status": "pending_approval",
+    "created_at": "2025-02-08T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_012": {
+    "invoice_id": "inv_012",
+    "vendor_id": "vend_005",
+    "order_id": "ord_012",
+    "amount": 1500,
+    "due_date": "2025-09-28",
+    "status": "approved",
+    "created_at": "2025-08-29T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_013": {
+    "invoice_id": "inv_013",
+    "vendor_id": "vend_006",
+    "order_id": "ord_013",
+    "amount": 2000,
+    "due_date": "2026-04-18",
+    "status": "paid",
+    "created_at": "2026-03-19T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_014": {
+    "invoice_id": "inv_014",
+    "vendor_id": "vend_007",
+    "order_id": "ord_014",
+    "amount": 2500,
+    "due_date": "2026-11-05",
+    "status": "rejected",
+    "created_at": "2026-10-06T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_015": {
+    "invoice_id": "inv_015",
+    "vendor_id": "vend_001",
+    "order_id": "ord_015",
+    "amount": 3000,
+    "due_date": "2024-04-02",
+    "status": "draft",
+    "created_at": "2024-03-03T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_016": {
+    "invoice_id": "inv_016",
+    "vendor_id": "vend_002",
+    "order_id": "ord_016",
+    "amount": 3500,
+    "due_date": "2024-10-20",
+    "status": "pending_approval",
+    "created_at": "2024-09-20T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_017": {
+    "invoice_id": "inv_017",
+    "vendor_id": "vend_003",
+    "order_id": "ord_017",
+    "amount": 4000,
+    "due_date": "2025-05-10",
+    "status": "approved",
+    "created_at": "2025-04-10T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_018": {
+    "invoice_id": "inv_018",
+    "vendor_id": "vend_004",
+    "order_id": "ord_018",
+    "amount": 4500,
+    "due_date": "2025-11-27",
+    "status": "paid",
+    "created_at": "2025-10-28T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_019": {
+    "invoice_id": "inv_019",
+    "vendor_id": "vend_005",
+    "order_id": "ord_019",
+    "amount": 5000,
+    "due_date": "2026-06-18",
+    "status": "rejected",
+    "created_at": "2026-05-19T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_020": {
+    "invoice_id": "inv_020",
+    "vendor_id": "vend_006",
+    "order_id": "ord_020",
+    "amount": 500,
+    "due_date": "2027-01-05",
+    "status": "draft",
+    "created_at": "2026-12-06T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_021": {
+    "invoice_id": "inv_021",
+    "vendor_id": "vend_007",
+    "order_id": "ord_021",
+    "amount": 1000,
+    "due_date": "2027-07-26",
+    "status": "pending_approval",
+    "created_at": "2027-06-26T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_022": {
+    "invoice_id": "inv_022",
+    "vendor_id": "vend_001",
+    "order_id": "ord_022",
+    "amount": 1500,
+    "due_date": "2024-12-20",
+    "status": "approved",
+    "created_at": "2024-11-20T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_023": {
+    "invoice_id": "inv_023",
+    "vendor_id": "vend_002",
+    "order_id": "ord_023",
+    "amount": 2000,
+    "due_date": "2025-07-10",
+    "status": "paid",
+    "created_at": "2025-06-10T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_024": {
+    "invoice_id": "inv_024",
+    "vendor_id": "vend_003",
+    "order_id": "ord_024",
+    "amount": 2500,
+    "due_date": "2026-01-27",
+    "status": "rejected",
+    "created_at": "2025-12-28T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_025": {
+    "invoice_id": "inv_025",
+    "vendor_id": "vend_004",
+    "order_id": "ord_025",
+    "amount": 3000,
+    "due_date": "2026-08-17",
+    "status": "draft",
+    "created_at": "2026-07-18T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_026": {
+    "invoice_id": "inv_026",
+    "vendor_id": "vend_005",
+    "order_id": "ord_026",
+    "amount": 3500,
+    "due_date": "2027-03-07",
+    "status": "pending_approval",
+    "created_at": "2027-02-05T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_027": {
+    "invoice_id": "inv_027",
+    "vendor_id": "vend_006",
+    "order_id": "ord_027",
+    "amount": 4000,
+    "due_date": "2027-09-25",
+    "status": "approved",
+    "created_at": "2027-08-26T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_028": {
+    "invoice_id": "inv_028",
+    "vendor_id": "vend_007",
+    "order_id": "ord_028",
+    "amount": 4500,
+    "due_date": "2028-04-13",
+    "status": "paid",
+    "created_at": "2028-03-14T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_029": {
+    "invoice_id": "inv_029",
+    "vendor_id": "vend_001",
+    "order_id": "ord_029",
+    "amount": 5000,
+    "due_date": "2025-09-09",
+    "status": "rejected",
+    "created_at": "2025-08-10T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
+  },
+  "inv_030": {
+    "invoice_id": "inv_030",
+    "vendor_id": "vend_002",
+    "order_id": "ord_030",
+    "amount": 500,
+    "due_date": "2026-02-27",
+    "status": "draft",
+    "created_at": "2026-01-28T12:00:00+00:00",
+    "updated_at": "2025-09-23T12:00:00+00:00"
   }
-]
+}
